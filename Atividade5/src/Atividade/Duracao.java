@@ -6,6 +6,7 @@ public enum Duracao {
 	private int Descontos;
 
 	private Duracao(int Descontos) {
+		this.Descontos = Descontos;
 	}
 
 	public int getDescontos() {

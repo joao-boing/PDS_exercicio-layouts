@@ -57,7 +57,7 @@ public class Academia extends JFrame {
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		setContentPane(contentPane);
-		contentPane.setLayout(new MigLayout("", "[3.00,grow][70.00,grow][110.00,grow][110,grow][110,grow]", "[30.00,grow][30.00,grow][30.00,grow][30.00,grow][30.00,grow][30.00,grow][30.00,grow]"));
+		contentPane.setLayout(new MigLayout("", "[3.00,grow][70.00][110.00,grow][110,grow][110,grow]", "[30.00,grow][30.00,grow][30.00,grow][30.00,grow][30.00,grow][30.00,grow][30.00,grow]"));
 		
 		JLabel lblNewLabel = new JLabel("CADASTRO DE CLIENTE - ACADEMIA TREINO FIT");
 		contentPane.add(lblNewLabel, "cell 2 0 3 1");

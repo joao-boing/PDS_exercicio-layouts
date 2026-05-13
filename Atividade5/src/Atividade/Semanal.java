@@ -6,6 +6,7 @@ public enum Semanal {
 	private int acrescimo;
 
 	private Semanal(int acrescimo) {
+		this.acrescimo = acrescimo;
 	}
 
 	public int getAcrescimo() {
